@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/myosdk__action_scan"
+        android:showAsAction="ifRoom"
+        android:orderInCategory="1000"
+        android:title="@string/myosdk__action_scan"
+        />
+</menu><!-- From: file:/Applications/TeamCity/buildAgent/work/ca8535995f06927f/MyoSDK/sdk/src/main/res/menu/myosdk__fragment_scan.xml -->

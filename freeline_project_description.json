@@ -1,0 +1,143 @@
+{
+    "android_gradle_plugin_version": "2.2.3",
+    "apk_path": "/Users/duian/AndroidStudioProjects/MyoParrot/app/build/outputs/apk/app-debug.apk",
+    "apt": {
+        
+    },
+    "apt_libraries": {
+        "dagger": false,
+        "butterknife": true
+    },
+    "auto_dependency": true,
+    "build_cache_dir": "/Users/duian/AndroidStudioProjects/MyoParrot/app/build/freeline",
+    "build_directory": "/Users/duian/AndroidStudioProjects/MyoParrot/app/build",
+    "build_script": "./gradlew :app:assembleDebug",
+    "build_script_work_directory": "",
+    "build_tools_directory": "/Users/duian/Documents/DevTools/adt-bundle-mac-x86_64-20140702/sdk/build-tools/25.0.1",
+    "build_tools_version": "25.0.1",
+    "compile_sdk_directory": "/Users/duian/Documents/DevTools/adt-bundle-mac-x86_64-20140702/sdk/platforms/android-25",
+    "compile_sdk_version": "android-25",
+    "databinding": [
+        
+    ],
+    "databinding_compiler_jar": "",
+    "databinding_modules": [
+        
+    ],
+    "debug_package": "chenanze.com.myoparrot",
+    "exclude_dep_res_paths": [
+        
+    ],
+    "extra_dep_res_paths": [
+        
+    ],
+    "freeline_cache_dir": "/Users/duian/AndroidStudioProjects/MyoParrot",
+    "freeline_gradle_plugin_version": "0.8.3",
+    "java_home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home",
+    "launcher": "com.parrot.sdksample.activity.DeviceListActivity",
+    "main_assets_directory": [
+        "/Users/duian/AndroidStudioProjects/MyoParrot/app/src/debug/assets",
+        "/Users/duian/AndroidStudioProjects/MyoParrot/app/src/main/assets"
+    ],
+    "main_jniLibs_directory": [
+        "/Users/duian/AndroidStudioProjects/MyoParrot/app/src/debug/jniLibs",
+        "/Users/duian/AndroidStudioProjects/MyoParrot/app/src/main/jniLibs"
+    ],
+    "main_jni_directory": [
+        "/Users/duian/AndroidStudioProjects/MyoParrot/app/src/debug/jni",
+        "/Users/duian/AndroidStudioProjects/MyoParrot/app/src/main/jni"
+    ],
+    "main_manifest_path": "/Users/duian/AndroidStudioProjects/MyoParrot/app/src/main/AndroidManifest.xml",
+    "main_project_dir": "app",
+    "main_project_name": "app",
+    "main_r_path": "/Users/duian/AndroidStudioProjects/MyoParrot/app/build/generated/source/r/debug/R.java",
+    "main_res_directory": [
+        "/Users/duian/AndroidStudioProjects/MyoParrot/app/src/debug/res",
+        "/Users/duian/AndroidStudioProjects/MyoParrot/app/src/main/res"
+    ],
+    "main_src_directory": [
+        "/Users/duian/AndroidStudioProjects/MyoParrot/app/src/debug/java",
+        "/Users/duian/AndroidStudioProjects/MyoParrot/app/src/main/java"
+    ],
+    "module_dependencies": {
+        "app": [
+            "myo"
+        ],
+        "myo": [
+            
+        ]
+    },
+    "modules": [
+        {
+            "name": "app",
+            "path": "/Users/duian/AndroidStudioProjects/MyoParrot/app"
+        },
+        {
+            "name": "myo",
+            "path": "/Users/duian/AndroidStudioProjects/MyoParrot/myo"
+        }
+    ],
+    "package": "com.parrot.sdksample",
+    "product_flavor": "",
+    "project_source_sets": {
+        "app": {
+            "main_assets_directory": [
+                "/Users/duian/AndroidStudioProjects/MyoParrot/app/src/debug/assets",
+                "/Users/duian/AndroidStudioProjects/MyoParrot/app/src/main/assets"
+            ],
+            "main_jniLibs_directory": [
+                "/Users/duian/AndroidStudioProjects/MyoParrot/app/src/debug/jniLibs",
+                "/Users/duian/AndroidStudioProjects/MyoParrot/app/src/main/jniLibs"
+            ],
+            "main_jni_directory": [
+                "/Users/duian/AndroidStudioProjects/MyoParrot/app/src/debug/jni",
+                "/Users/duian/AndroidStudioProjects/MyoParrot/app/src/main/jni"
+            ],
+            "main_manifest_path": "/Users/duian/AndroidStudioProjects/MyoParrot/app/src/main/AndroidManifest.xml",
+            "main_res_directory": [
+                "/Users/duian/AndroidStudioProjects/MyoParrot/app/src/debug/res",
+                "/Users/duian/AndroidStudioProjects/MyoParrot/app/src/main/res"
+            ],
+            "main_src_directory": [
+                "/Users/duian/AndroidStudioProjects/MyoParrot/app/src/debug/java",
+                "/Users/duian/AndroidStudioProjects/MyoParrot/app/src/main/java"
+            ]
+        },
+        "myo": {
+            "main_assets_directory": [
+                "/Users/duian/AndroidStudioProjects/MyoParrot/myo/src/release/assets",
+                "/Users/duian/AndroidStudioProjects/MyoParrot/myo/src/main/assets"
+            ],
+            "main_jniLibs_directory": [
+                "/Users/duian/AndroidStudioProjects/MyoParrot/myo/src/release/jniLibs",
+                "/Users/duian/AndroidStudioProjects/MyoParrot/myo/libs"
+            ],
+            "main_jni_directory": [
+                "/Users/duian/AndroidStudioProjects/MyoParrot/myo/src/release/jni",
+                "/Users/duian/AndroidStudioProjects/MyoParrot/myo/src/main/jni"
+            ],
+            "main_manifest_path": "/Users/duian/AndroidStudioProjects/MyoParrot/myo/src/main/AndroidManifest.xml",
+            "main_res_directory": [
+                "/Users/duian/AndroidStudioProjects/MyoParrot/myo/src/release/res",
+                "/Users/duian/AndroidStudioProjects/MyoParrot/myo/src/main/res"
+            ],
+            "main_src_directory": [
+                "/Users/duian/AndroidStudioProjects/MyoParrot/myo/src/release/java",
+                "/Users/duian/AndroidStudioProjects/MyoParrot/myo/src/main/java"
+            ]
+        }
+    },
+    "project_type": "gradle",
+    "retrolambda": {
+        "app": {
+            "enabled": true,
+            "mainClass": "net.orfjackal.retrolambda.Main",
+            "rtJar": "/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar",
+            "supportIncludeFiles": true,
+            "targetJar": "/Users/duian/.gradle/caches/modules-2/files-2.1/net.orfjackal.retrolambda/retrolambda/2.1.0/6b764ee7bcfa99627f12d0b051f4640b5725178f/retrolambda-2.1.0.jar"
+        }
+    },
+    "root_dir": "/Users/duian/AndroidStudioProjects/MyoParrot",
+    "sdk_directory": "/Users/duian/Documents/DevTools/adt-bundle-mac-x86_64-20140702/sdk",
+    "use_jdk8": true
+}

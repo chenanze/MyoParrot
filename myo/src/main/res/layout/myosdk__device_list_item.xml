@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="90dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/myosdk__device_name_tv"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="My Myo" />
+
+        <TextView
+            android:id="@+id/myosdk__device_version_tv"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/myosdk__device_name_tv"
+            tools:text="Version: 1.0.0" />
+
+        <TextView
+            android:id="@+id/myosdk__required_firmware_version_text"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/myosdk__device_version_tv"
+            tools:text="Required: 1.0.0" />
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/myosdk__progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        style="@android:style/Widget.ProgressBar.Small.Inverse" />
+
+    <View
+        android:id="@+id/myosdk__connection_state_dot"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        android:background="@drawable/myosdk__connected_dot" />
+
+</RelativeLayout><!-- From: file:/Applications/TeamCity/buildAgent/work/ca8535995f06927f/MyoSDK/sdk/src/main/res/layout/myosdk__device_list_item.xml -->

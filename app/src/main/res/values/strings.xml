@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MyoParrotMini</string>
+    <string name="scan">Scan</string>
+    <string name="pose_fist">Fist</string>
+    <string name="pose_wavein">Wave In</string>
+    <string name="pose_waveout">Wave Out</string>
+    <string name="pose_fingersspread">Fingers Spread</string>
+    <string name="pose_rest">Rest</string>
+    <string name="arm_left">Left Arm</string>
+    <string name="arm_right">Right Arm</string>
+    <string name="unlocked">Unlocked</string>
+    <string name="locked">Locked</string>
+    <string name="unkown">Unkown</string>
+    <string name="double_tap">Double tap</string>
+    <string name="unsync">UnSync</string>
+    <string name="rest">rest</string>
+</resources>

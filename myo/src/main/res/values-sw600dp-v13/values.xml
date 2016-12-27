@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Applications/TeamCity/buildAgent/work/ca8535995f06927f/MyoSDK/sdk/src/main/res/values-sw600dp/dimens.xml -->
+    <eat-comment/>
+    <dimen name="myosdk__fragment_scan_window_height">500dp</dimen>
+    <dimen name="myosdk__fragment_scan_window_width">400dp</dimen>
+    <!-- From: file:/Applications/TeamCity/buildAgent/work/ca8535995f06927f/MyoSDK/sdk/src/main/res/values-sw600dp/themes.xml -->
+    <eat-comment/>
+    <style name="myosdk__ScanActivityTheme" parent="myosdk__PopupActivityTheme"/>
+</resources>

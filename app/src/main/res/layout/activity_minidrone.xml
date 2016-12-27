@@ -1,0 +1,233 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/piloting_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MiniDroneActivity">
+
+    <Button
+        android:id="@+id/emergencyBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:width="150dp"
+        android:text="Emergency" />
+
+    <Button
+        android:id="@+id/takePictureBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:width="150dp"
+        android:text="Take picture" />
+
+    <Button
+        android:id="@+id/parrot_connect_myo_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:width="150dp"
+        android:text="连接MYO" />
+
+    <TextView
+        android:id="@+id/myo_status_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/parrot_connect_myo_bt"
+        android:layout_alignBaseline="@id/parrot_connect_myo_bt"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/myo_lock_status_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/parrot_connect_myo_bt"
+        android:text="" />
+
+    <Button
+        android:id="@+id/yawRightBt"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="right" />
+
+    <Button
+        android:id="@+id/rollLeftBt"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:width="50dp"
+        android:text="left" />
+
+    <Button
+        android:id="@+id/yawLeftBt"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gazUpBt"
+        android:layout_toLeftOf="@+id/gazUpBt"
+        android:layout_toStartOf="@+id/gazUpBt"
+        android:text="left" />
+
+    <Button
+        android:id="@+id/rollRightBt"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/backBt"
+        android:layout_toEndOf="@+id/backBt"
+        android:layout_toRightOf="@+id/backBt"
+        android:width="20dp"
+        android:text="right" />
+
+    <Button
+        android:id="@+id/gazUpBt"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/yawRightBt"
+        android:layout_toLeftOf="@+id/yawRightBt"
+        android:layout_toStartOf="@+id/yawRightBt"
+        android:width="110dp"
+        android:text="up" />
+
+    <Button
+        android:id="@+id/gazDownBt"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yawRightBt"
+        android:layout_toEndOf="@+id/yawLeftBt"
+        android:layout_toRightOf="@+id/yawLeftBt"
+        android:width="110dp"
+        android:text="down" />
+
+    <Button
+        android:id="@+id/forwardBt"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/gazUpBt"
+        android:layout_toEndOf="@+id/rollLeftBt"
+        android:layout_toRightOf="@+id/rollLeftBt"
+        android:width="110dp"
+        android:text="forward" />
+
+    <Button
+        android:id="@+id/backBt"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rollLeftBt"
+        android:layout_toEndOf="@+id/rollLeftBt"
+        android:layout_toRightOf="@+id/rollLeftBt"
+        android:width="110dp"
+        android:text="back" />
+
+    <Button
+        android:id="@+id/downloadBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:width="150dp"
+        android:text="Download" />
+
+    <TextView
+        android:id="@+id/batteryLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_toRightOf="@+id/textView"
+        android:text="XXX%"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff0000" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/rollLeftBt"
+        android:layout_toRightOf="@+id/rollLeftBt"
+        android:width="50dp"
+        android:gravity="center_horizontal"
+        android:text="roll"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/gazDownBt"
+        android:layout_alignRight="@+id/gazDownBt"
+        android:layout_alignTop="@+id/textView2"
+        android:width="50dp"
+        android:gravity="center_horizontal"
+        android:text="yaw"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/takeOffOrLandBt"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/pitch_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="test"/>
+
+        <TextView
+            android:id="@+id/roll_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="test"
+            />
+
+        <TextView
+            android:id="@+id/yaw_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="test"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/takeOffOrLandBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/emergencyBt" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Battery: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff0000"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/debug_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:text="打开调试模式"/>
+
+    <TextView
+        android:id="@+id/mode_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="正常模式"
+        android:textSize="20sp"
+        android:textColor="@color/myosdk__indicator_green"/>
+</RelativeLayout>

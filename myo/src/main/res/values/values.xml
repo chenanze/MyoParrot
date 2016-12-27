@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Applications/TeamCity/buildAgent/work/ca8535995f06927f/MyoSDK/sdk/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="myosdk__button_orange">#FF8000</color>
+    <color name="myosdk__button_red">#AE0922</color>
+    <color name="myosdk__indicator_green">#24C75A</color>
+    <color name="myosdk__thalmic_blue">#00BCDD</color>
+    <!-- From: file:/Applications/TeamCity/buildAgent/work/ca8535995f06927f/MyoSDK/sdk/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="myosdk__activity_horizontal_margin">16dp</dimen>
+    <dimen name="myosdk__activity_vertical_margin">16dp</dimen>
+    <dimen name="myosdk__fragment_scan_window_height">0dp</dimen>
+    <dimen name="myosdk__fragment_scan_window_width">0dp</dimen>
+    <!-- From: file:/Applications/TeamCity/buildAgent/work/ca8535995f06927f/MyoSDK/sdk/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="myosdk__action_scan">Scan</string>
+    <string name="myosdk__action_stop_scan">Stop Scan</string>
+    <string name="myosdk__firmware_required_format">Required: %s or newer</string>
+    <string name="myosdk__firmware_version_format">Version: %s</string>
+    <string name="myosdk__title_activity_scan">Choose a Myo</string>
+    <string name="myosdk__unknown_myo">Unknown Myo</string>
+    <!-- From: file:/Applications/TeamCity/buildAgent/work/ca8535995f06927f/MyoSDK/sdk/src/main/res/values/themes.xml -->
+    <eat-comment/>
+    <style name="myosdk__PopupActivityTheme" parent="android:Theme.Holo.Light.Dialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowActionModeOverlay">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="myosdk__ScanActivityTheme" parent="android:Theme.Holo.Light"/>
+</resources>
