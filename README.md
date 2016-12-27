@@ -29,9 +29,13 @@ Myo 这款产品最早是一个朋友推荐给我的,买它是因为国外有极
 
 ![img4](https://ww4.sinaimg.cn/large/006tNc79gw1fb5br2idcgg308c06ykjn.gif)
 
-![img5](https://ww2.sinaimg.cn/large/006tNbRwjw1fb5c8y1zsyj30ir0p0tdl.jpg)
+![img5](https://ww3.sinaimg.cn/large/006tNbRwgw1fb5o4gxkq4g308c06yu0y.gif)
 
-![img6](https://ww1.sinaimg.cn/large/006tNbRwgw1fb5cizpm2wj30p00e2myh.jpg)
+![img6](https://ww4.sinaimg.cn/large/006tNbRwgw1fb5o495031g308c06yx6q.gif)
+
+![img7](https://ww2.sinaimg.cn/large/006tNbRwjw1fb5c8y1zsyj30ir0p0tdl.jpg)
+
+![img8](https://ww1.sinaimg.cn/large/006tNbRwgw1fb5cizpm2wj30p00e2myh.jpg)
 
 ## 使用手势
 - 双击手指: 起飞/降落
