@@ -20,7 +20,7 @@ Myo 这款产品最早是一个朋友推荐给我的,买它是因为国外有极
 时间仓促,水平有限,代码各位就凑合看吧.
 
 ## 预览
-预览视频: <iframe height=498 width=510 src='http://player.youku.com/embed/XMTkyMTg3ODUyOA==' frameborder=0 'allowfullscreen'></iframe>
+预览视频: http://v.youku.com/v_show/id_XMTkyMTg3ODUyOA==.html?firsttime=0
 ![img1](https://ww4.sinaimg.cn/large/006tNbRwjw1fb5c8yeonej30ci0godig.jpg)
 
 ![img2](https://ww4.sinaimg.cn/large/006tNbRwjw1fb5c8y9k15j30ir0p0wl7.jpg)
